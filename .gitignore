@@ -1,0 +1,26 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Ignore Terraform variables files (if you store secrets here)
+*.tfvars
+
+# Ignore the .terraform directory (Terraform modules)
+.terraform/
+
+# Ignore sensitive files (e.g., API keys, credentials)
+*.key
+*.pem
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.swp
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
